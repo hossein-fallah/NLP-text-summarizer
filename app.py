@@ -8,10 +8,6 @@ root.title('Hossein Fallah')
 background_image=tk.PhotoImage('1.jpg')
 
 
-def sumrizer():
-    text=input_text.get("1.0", "end")
-    return text
-
 def getText():
     output_text.delete("1.0","end")
     result=input_text.get("1.0","end")
