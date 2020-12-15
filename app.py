@@ -6,7 +6,6 @@ root = tk.Tk()
 root.geometry("810x460")
 root.configure(background='#DCDCDC')
 root.title('Hossein Fallah')
-background_image=tk.PhotoImage('1.jpg')
 
 
 # here we define our functions
