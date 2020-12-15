@@ -23,7 +23,7 @@ file = open('stopwords.txt', encoding = 'utf-8').read()
 _stopwords = set(stopwords)
 
 #n=input
-def summraizer():
+def summarizer():
     
     output_text.delete("1.0","end")
     re=input_text.get("1.0","end")
@@ -81,7 +81,7 @@ in_lable.grid(row = 0, column = 1,  pady = 2)
 
 #BTNs
 btnRead=tk.Button(root, height=1, width=20, text="ثبت",relief='flat',overrelief='groove',
-                    command=summraizer)
+                    command=summarizer)
 btnRead.grid(row = 2, column = 0, pady = 2)
 
 btnClear=tk.Button(root, height=1, width=20, text="پاک کردن",relief='flat',overrelief='groove',
