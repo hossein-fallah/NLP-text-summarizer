@@ -12,6 +12,7 @@ background_image=tk.PhotoImage('1.jpg')
 # here we define our functions
 def sumrizer():
     text=input_text.get("1.0", "end")
+    #bulding
     return text
 
 def getText():
