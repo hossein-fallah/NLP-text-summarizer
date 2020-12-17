@@ -85,7 +85,7 @@ output_text.tag_configure('tag-right', justify='right')
 
 
 #copywrite
-copywrite_lable = tk.Label(root,relief='sunken', text="Abolfazl Farhadzadeh \n 2020")
+copywrite_lable = tk.Label(root,relief='sunken', text="Hossein Fallah \n 2020")
 copywrite_lable.grid(row = 8, column = 0,  pady = 2)
 
 
